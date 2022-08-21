@@ -83,6 +83,7 @@ export default function Footer() {
             <style jsx>{`
                 .footer {
                     background: black;
+                    margin: 0;
                     padding: 50px 10px;
                     padding-bottom: 0;
                     background: url(bkg_footer.jpg) no-repeat center center fixed; 
@@ -101,6 +102,10 @@ export default function Footer() {
                 p.legal {
                     border-top: 1px solid #fff;
                     padding: 15px 0;
+                }
+                a {
+                    color: #ffffff !important;
+                    text-decoration: none !important;
                 }
                 form.forma .forma {
                     border-radius: 0 !important;
