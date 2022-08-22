@@ -11,6 +11,7 @@ export default function Hero() {
                 />
                 <Carousel.Caption>
                     <h3>centro de<br/>soluciones<br/>gráficas</h3>
+                    <div className='linea'></div>
                     <p>impresión en gran formato</p>
                 </Carousel.Caption>
             </Carousel.Item>

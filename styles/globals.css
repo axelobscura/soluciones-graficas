@@ -37,6 +37,12 @@ a:hover {
   margin-right: 20px;
 }
 
+.logo {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+
 .carousel-caption {
   top: 30%;
 }
@@ -51,12 +57,24 @@ a:hover {
 
 .carousel-caption p {
   font-size: 2rem;
-  font-weight: bold;
   text-align: left;
   padding-left: 30%;
-  border-top: 3px solid #ff0000;
   padding-top: 25px;
+  letter-spacing: 10px;
 }
+
+.carousel-caption .linea {
+  width: 515px;
+  height: 2px;
+  background: #ff0000;
+  margin-left: 30%;
+}
+
+.sticky-top {
+  background: transparent;
+  position: fixed;
+}
+
 
 * {
   box-sizing: border-box;
